@@ -1,0 +1,59 @@
+Inputs:
+
+age: intreg pozitiv 
+is_student: bool
+day: intreg intre 1-7
+row: intreg intre 0-9
+loyalty points: intreg
+
+Clase de echivalenta:
+
+- day: zilele saptamanii 
+    D_1 = {1,2,3,4,5} - zilele din cursul saptamanii
+    D_2 = {6,7} - weekend
+    D_3 = {d|d < 1} 
+    D_4 = {d|d > 7}
+    D_3 & D_4 - clase invalide
+
+- row: tipul locului
+    R_1 = {0,1,2,3,7,8,9} - standard 
+    R_2 = {4,5,6} - VIP
+    R_3 = {r|r < 0}
+    R_4 = {r|r > 9}
+    R_3 & R_4 - clase invalide
+
+- age: varsta
+    A_1 = {0,...,64}
+    A_2 = {65,...} - pensionar 
+    A_3 = {a|a < 0} - clasa invalida
+
+- loyalty
+    L_1 = {0,...,50} - fara reducere
+    L_2 = {51,...} - reducere
+    L_3 = {l|l < 0}
+
+- is_student
+    S_1 = {TRUE}
+    S_2 = {FALSE}
+
+Clasele de echivalenta pentru intregul program se pot obtine ca o combinatie a claselor individuale.
+
+Analiza valorilor de frontiera:
+
+    day:        D_1 = {1,5}
+                D_2 = {6,7}
+                D_3 = {0}
+                D_4 = {8}
+
+    row:        R_1 = {0,9,3,7}
+                R_2 = {4,6}
+                R_3 = {-1}
+                R_4 = {10}
+    
+    age:        A_1 = {0,64}
+                A_2 = {65}
+                A_3 = {-1}
+
+    loyalty:    L_1 = {0,50}
+                L_2 = {51}
+                L_3 = -1
