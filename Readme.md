@@ -59,8 +59,13 @@ Acest proiect implementeaza un sistem de gestiune pentru rezervari cinema, cu lo
 ### Control Flow Graph (CFG)
 Nodurile grafului corespund liniilor de cod din functia calculate_price.
 
-[LOC PENTRU IMAGINE: CFG CU CODUL]
-[LOC PENTRU IMAGINE: CFG CU ARBORELE / DIAGRAMA]
+<p align="center">
+<img width="1012" height="770" alt="cfg_base_code" src="https://github.com/user-attachments/assets/d540beab-3f5f-4b2e-b2fb-bbbd96d25686" />
+</p>
+<br>
+<p align="center">
+<img width="728" height="1294" alt="cfg_arbore" src="https://github.com/user-attachments/assets/b704cd40-a99c-4231-92df-8182fafc994d" />
+</p>
 
 Strategii implementate:
 - Statement Coverage: Toate instructiunile executate.
@@ -84,14 +89,17 @@ Pentru a rula intreaga suita de teste si a genera raportul de coverage, se folos
    coverage report -m
 
 ### Capturi de ecran rezultate:
-
-[IMAGINE: pytest.png - Rezultatele rularii tuturor testelor]
-[IMAGINE: coverage_run_test.png - Comanda de masurare coverage]
-[IMAGINE: report_m.png - Raportul de coverage final]
+<p align="center">
+<img width="1650" height="1190" alt="rulare_pytest" src="https://github.com/user-attachments/assets/acfd319d-e3f0-45bf-9122-9d1cccb390f4" />
+<br>
+<img width="1638" height="206" alt="rulare_coverage_run" src="https://github.com/user-attachments/assets/d8fa7b4b-d0ea-4fa0-8be2-eb8d66ec3620" />
+<br>
+<img width="710" height="155" alt="generare_raport" src="https://github.com/user-attachments/assets/f0711309-33d1-47e2-9c60-972fc46a9109" />
+</p>
 
 ## Raport Utilizare AI
-[LOC PENTRU RAPORT UTILIZARE AI - COMPARATIE TESTE MANUALE VS AUTOGENERATE]
+To be added...
 
 ## Demo si Prezentare
-[LOC PENTRU LINK VIDEO DEMO PROIECT]
-[LOC PENTRU LINK PREZENTARE PPT / PDF]
+To be added...video
+To be added...ppt
