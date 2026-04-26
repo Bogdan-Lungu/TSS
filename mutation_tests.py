@@ -5,8 +5,6 @@ from main import CinemaSystem, DAYS, MOVIES
 def cinema():
     return CinemaSystem()
 
-
-
 # Teste suplimentare derivate din analiza supravietuitorilor
 # generati de mutmut pe main.py (paths_to_mutate=main.py)
 #
@@ -28,7 +26,6 @@ def test_kill_mutmut_id_2_days_contains_tuesday(cinema):
     price = cinema.calculate_price(age=30, is_student=False, day=2, row=0, loyalty_points=0)
     assert price == 30.0, "Mutantul DAYS-tuesday a supravietuit! Day=2 trebuie sa fie valid."
 
-
 def test_kill_mutmut_id_13_movies_constant_integrity():
     """
     Mutanti mutmut id=9..15:
@@ -39,8 +36,6 @@ def test_kill_mutmut_id_13_movies_constant_integrity():
     """
     expected = ["Dune 2", "Batman", "Spider-Man", "Inception", "Titanic", "Avatar", "Joker"]
     assert MOVIES == expected, f"MOVIES a fost mutat: {MOVIES}"
-    
-    
 
 def test_kill_mutant_id_24_error_message_day_exact(cinema):
     """
@@ -61,8 +56,6 @@ def test_kill_mutant_id_30_error_message_row_exact(cinema):
     with pytest.raises(ValueError) as exc:
         cinema.calculate_price(age=30, is_student=False, day=1, row=10, loyalty_points=0)
     assert str(exc.value) == "Rand invalid (0-9)"
-
-
 
 def test_kill_mutmut_id_54_student_day_friday_boundary(cinema):
     """
