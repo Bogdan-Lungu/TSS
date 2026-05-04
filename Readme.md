@@ -1,5 +1,10 @@
 # Proiect Testarea Sistemelor Software - Sistem Cinema
 
+## Tema: Testare unitara in Python
+## Membrii Echipei
+- Lungu Bogdan Cosmin
+- Lascu Daniel
+
 ## Descriere Proiect
 Acest proiect implementeaza un sistem de gestiune pentru rezervari cinema, cu logica de calcul a pretului biletului in functie de varsta, statut student, zi, rand si puncte de loialitate. Proiectul acopera toate cele 3 etape de implementare si testare: functionala, structurala si mutation testing.
 
