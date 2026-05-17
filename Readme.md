@@ -222,10 +222,10 @@ Pentru a rula intreaga suita de teste si a genera raportul de coverage, se folos
    `python -m mutmut results && python -m mutmut html`
 
 ### Capturi de ecran rezultate:
-
-<img width="1356" height="1017" alt="pytest_run_2" src="https://github.com/user-attachments/assets/0a80e166-4f91-4511-b3f2-9cee66b5231d" />
 <br>
 <img width="1356" height="1017" alt="pytest_run" src="https://github.com/user-attachments/assets/ac9124f6-ba1a-43ce-85a6-f06abd586edc" />
+<br>
+<img width="1356" height="1017" alt="pytest_run_2" src="https://github.com/user-attachments/assets/0a80e166-4f91-4511-b3f2-9cee66b5231d" />
 <br>
 <img width="1355" height="261" alt="coverage_run" src="https://github.com/user-attachments/assets/23539cc8-6183-4ebe-b60f-fe80c7d2d652" />
 <br>
