@@ -234,7 +234,22 @@ Pentru a rula intreaga suita de teste si a genera raportul de coverage, se folos
 
 
 ## Raport Utilizare AI
-[LOC PENTRU RAPORT UTILIZARE AI - COMPARATIE TESTE MANUALE VS AUTOGENERATE]
+<p>
+    Pentru testele genereate de AI, am folosit <i>Gemini</i>. Acesta a fost prompt-ul:
+</p>
+<br>
+<img width="617" height="547" alt="Gemini_promp" src="https://github.com/user-attachments/assets/01d69d61-d212-49db-b6c0-d9aff931d0f4" />
+<br>
+<br>
+Testarea structurala si functionala acopera tot modului, lucru relevat de coverage analisys:
+<br>
+
+<img width="842" height="315" alt="Coverage" src="https://github.com/user-attachments/assets/80c104e9-b0e2-49e9-bd70-921b1522d34e" />
+
+<p>Pe parte de testare functionala, AI-ul a facut BVA destul de bine, in schimb nu a testat toate clasele de echivalenta.</p>
+<p>In cazul mutation testing, nu a generat mutanti cu <i>mutmut</i>, ci doar a imaginat 3 muntanti posibili pentru care a generat 3 teste. Mutantii erau plauzibili, unul dintre ei chiar supravietuia in analiza de mutanti facuta de noi.</p>
+<br>
+<img width="866" height="156" alt="Rulare" src="https://github.com/user-attachments/assets/29df9802-3905-43c8-9b0e-a3e3e3170f50" />
 
 ## Demo si Prezentare
 [LOC PENTRU LINK VIDEO DEMO PROIECT]
